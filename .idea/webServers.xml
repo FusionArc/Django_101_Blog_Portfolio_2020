@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="b16f2edf-d767-48f1-951f-205a6548f2d7" name="cloudshare" url="http://cloudshare.space">
+        <fileTransfer host="cloudshare.space" port="22" privateKey="C:\Users\davec\.ssh\id_rsa" rootFolder="/home/dave" accessType="SFTP" keyPair="true">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>
