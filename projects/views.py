@@ -9,22 +9,17 @@ from django.utils import timezone
 
 
 def index(request):
-    return render(request, 'index')
+    context = {}
+    return render(request, 'index.html', context)
 
 
 def project_index(request):
     projects = Project.objects.all()
-    context = {
-        'projects': projects
-    }
-
+    context = {'projects': projects}
     return render(request, 'project_index.html', context)
 
 
 def project_detail(request, pk):
     project = Project.objects.get(pk=pk)
-    context = {
-        'project': project
-    }
-
+    context = {'project': project}
     return render(request, 'project_detail.html', context)
