@@ -5,7 +5,7 @@ BASE_DIR = os.path.dirname(os.path.dirname(
 
 SECRET_KEY = '0#$yp24v6pogf4v9$(r%y#usbjuxs59^-!!)a6@=5owrz$@k3)'
 
-DEBUG = True
+DEBUG = False
 
 ALLOWED_HOSTS = ['127.0.0.1', 'cloudshare.space']
 
